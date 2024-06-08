@@ -53,6 +53,20 @@ Consists of 4 Screens:
 - **Third Screen:** The Media player that plays the selected video (using VLCJ). The user can play/pause the video using the button or by clicking the video screen.
 - **Fourth Screen:** A simple about screen that can be opened anytime from the third screen.
 
+Ruleset for protocol selection (if user did not select a protocol):
+
+
+|Resolutions|240p|360p|480p|720p|1080p|
+|-----------|----|----|----|----|-----|
+|Protocol|TCP|UDP|UDP|RTP/UDP|RTP/UDP|
+
+Ruleset for Speed Test:
+
+|Resolutions|240p|360p|480p|720p|1080p|
+|-----------|----|----|----|----|-----|
+|User bit rate|400Kbps|750Kbps|1000Kbps|2500Kbps|4500Kbps|
+
+
 ### Usage
 
 Place preffered video files inside 'videos' directory: '***src\main\resources\org\streamsync\multimedia_server\videos***'
