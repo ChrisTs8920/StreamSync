@@ -97,32 +97,32 @@ Execution of 'closeconnection' is required.
 
 ### Server - Home
 
-![Server - Home](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Home.jpg?raw=true)
+![Server - Home](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/Home.jpg?raw=true)
 
 ### Server - Console
 
-![Server - Console](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Console.jpg?raw=true)
+![Server - Console](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/Console.jpg?raw=true)
 
 ### Server - Client menu
 
-![Server - Client menu](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Client.jpg?raw=true)
+![Server - Client menu](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/Client.jpg?raw=true)
 
 ### Server - About
 
-![Server - About](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/About.jpg?raw=true)
+![Server - About](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/About.jpg?raw=true)
 
 ### Client - Speed test
 
-![Client - Speed test](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Speedtest.jpg?raw=true)
+![Client - Speed test](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/Speedtest.jpg?raw=true)
 
 ### Client - Video selection
 
-![Client - Video selection](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/VideoSelection.jpg?raw=true)
+![Client - Video selection](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/VideoSelection.jpg?raw=true)
 
 ### Client - Video player
 
-![Client - Video player](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/VideoPlayer.jpg?raw=true)
+![Client - Video player](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/VideoPlayer.jpg?raw=true)
 
 ### Client - About
 
-![Client - About](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/About_c.jpg?raw=true)
+![Client - About](https://github.com/ChrisTs8920/StreamSync/blob/main/screenshots/About_c.jpg?raw=true)
