@@ -97,32 +97,32 @@ Execution of 'closeconnection' is required.
 
 ### Server - Home
 
-![alt text](Home.jpg)
+![Server - Home](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Home.jpg?raw=true)
 
 ### Server - Console
 
-![alt text](Console.jpg)
+![Server - Console](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Console.jpg?raw=true)
 
 ### Server - Client menu
 
-![alt text](Client.jpg)
+![Server - Client menu](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Client.jpg?raw=true)
 
 ### Server - About
 
-![alt text](About-1.jpg)
+![Server - About](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/About.jpg?raw=true)
 
 ### Client - Speed test
 
-![alt text](Speedtest.jpg)
+![Client - Speed test](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/Speedtest.jpg?raw=true)
 
 ### Client - Video selection
 
-![alt text](<Video selection.jpg>)
+![Client - Video selection](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/VideoSelection.jpg?raw=true)
 
 ### Client - Video player
 
-![alt text](<Video player.jpg>)
+![Client - Video player](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/VideoPlayer.jpg?raw=true)
 
 ### Client - About
 
-![alt text](About_c.jpg)
+![Client - About](https://github.com/ChrisTs8920/py-file-explorer/blob/main/screenshots/About_c.jpg?raw=true)
