@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" style="-fx-background-color: #111318;" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="StreamSync">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <padding>
+            <Insets bottom="80.0" />
+         </padding>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9803921580314636" green="0.8470588326454163" blue="0.9921568632125854" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.34228187919463077">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.8470588326454163" blue="0.9921568632125854" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.886274516582489" green="0.886274516582489" blue="0.9137254953384399" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextArea editable="false" prefHeight="67.0" prefWidth="610.0" style="-fx-background-color: #111318; -fx-control-inner-background: #111318;" stylesheets="@../../../../../../../../Multimedia_Server/src/main/resources/org/streamsync/multimedia_server/css/styles.css" text="A video player client applcation designed to play video files, made with JavaFX, vlcj, FFmpeg and Sockets." wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="80.0" />
+         </VBox.margin>
+      </TextArea>
+      <Label text="Made by: Christos Tsouchlakis" textFill="#e2e2e9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </Label>
+      <Label text="Version: 0.1.0" textFill="#e2e2e9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </Label>
+      <Label text="License: MIT" textFill="#e2e2e9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

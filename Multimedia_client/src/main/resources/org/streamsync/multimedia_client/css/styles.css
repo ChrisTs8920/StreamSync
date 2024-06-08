@@ -1,0 +1,55 @@
+.list-view {
+    -fx-font-size: 14px;
+    -fx-font-family: Consolas;
+    -fx-font-weight: bold;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #111318;
+    -fx-text-fill: #e2e2e9;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #191c20;
+    -fx-text-fill: #e2e2e9;
+}
+
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #37393e;
+    -fx-text-fill: #e2e2e9;
+}
+
+.list-view .list-cell:filled:selected:focused {
+    -fx-background-color: #37393e;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #415f91;
+}
+
+.text-area *.text
+{
+    -fx-text-alignment: center;
+}
+
+.text-area
+{
+    -fx-text-fill: #e2e2e9;
+    -fx-text-alignment: center;
+}
+
+.text-area:focused
+{
+    -fx-faint-focus-color: transparent;
+}
+
+.text-area .content
+{
+    -fx-background-radius: 0;
+}

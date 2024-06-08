@@ -1,0 +1,61 @@
+.button
+{
+    -fx-background-color:  #415f91;
+    -fx-background-radius:  0;
+}
+
+.button:hover
+{
+    -fx-background-color: #677fa7;
+}
+
+.button:focused
+{
+    -fx-background-color: #284777;
+    -fx-border-color: #677fa7;
+    -fx-border-width: 0 0 0 3px;
+}
+
+.text-field
+{
+    -fx-text-fill: #e2e2e9;
+    -fx-prompt-text-fill: #e2e2e9;
+    -fx-background-radius: 0;
+}
+
+#console *.text
+{
+    -fx-text-alignment: left;
+}
+
+.text-area *.text
+{
+    -fx-text-alignment: center;
+}
+
+.text-area
+{
+    -fx-text-fill: #e2e2e9;
+    -fx-text-alignment: center;
+}
+
+.text-area:focused
+{
+    -fx-faint-focus-color: transparent;
+}
+
+.text-area .content
+{
+    -fx-background-radius: 0;
+}
+
+.text-area .scroll-bar
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-area .scroll-bar .thumb
+{
+    -fx-background-color: #415f91;
+}

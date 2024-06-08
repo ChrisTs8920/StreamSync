@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #111318;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.streamsync.multimedia_server.MainController">
+    <top>
+        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="947.0" style="-fx-background-color: #284777;" BorderPane.alignment="CENTER">
+            <children>
+                <Label graphicTextGap="10.0" text="StreamSync">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/play_circle_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <HBox.margin>
+                        <Insets left="20.0" />
+                    </HBox.margin>
+                    <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.9803921580314636" green="0.8470588326454163" blue="0.9921568632125854" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="0.21476510067114085">
+                                    <color>
+                                        <Color red="0.9803921580314636" green="0.8470588326454163" blue="0.9921568632125854" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.8392156958580017" green="0.8901960849761963" blue="1.0" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+            </children>
+        </HBox>
+    </top>
+    <left>
+        <VBox prefHeight="560.0" prefWidth="192.0" style="-fx-background-color: #415f91;" BorderPane.alignment="CENTER">
+            <children>
+                <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#openHome" prefHeight="55.0" prefWidth="192.0" stylesheets="@../css/styles.css" text="Home" textFill="#d6e3ff">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/home_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+                </Button>
+                <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#openConsole" prefHeight="55.0" prefWidth="275.0" stylesheets="@../css/styles.css" text="Console" textFill="#d6e3ff">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/terminal_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                </Button>
+                <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="61.0" mnemonicParsing="false" onAction="#openClient" prefHeight="55.0" prefWidth="230.0" stylesheets="@../css/styles.css" text="Client" textFill="#d6e3ff">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/person_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                </Button>
+                <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="127.0" mnemonicParsing="false" onAction="#openAbout" prefHeight="55.0" prefWidth="230.0" stylesheets="@../css/styles.css" text="About" textFill="#d6e3ff">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/info_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                </Button>
+                <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="183.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="230.0" stylesheets="@../css/styles.css" text="Exit" textFill="#d6e3ff">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../icons/close_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="20.0" />
+                    </padding>
+                </Button>
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </VBox>
+    </left>
+</BorderPane>

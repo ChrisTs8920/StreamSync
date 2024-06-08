@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" style="-fx-background-color: #141218;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.streamsync.multimedia_server.ConsoleController">
+   <children>
+      <TextArea id="console" fx:id="consoleText" editable="false" style="-fx-control-inner-background: #111318; -fx-background-color: #111318;" stylesheets="@../css/styles.css" wrapText="true" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Consolas Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="1.0" />
+         </VBox.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextArea>
+      <TextField fx:id="consoleInput" prefHeight="34.0" prefWidth="597.0" promptText="&gt;&gt; Type 'help' for available commands" style="-fx-background-color: #191c20;" stylesheets="@../css/styles.css">
+         <font>
+            <Font name="Consolas Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </TextField>
+   </children>
+</VBox>

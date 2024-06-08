@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vBox" alignment="BOTTOM_CENTER" spacing="5.0" style="-fx-background-color: #111318;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.streamsync.multimedia_client.PlayerController">
+   <StackPane fx:id="stackPane" maxHeight="480.0" maxWidth="854.0" minHeight="480.0" minWidth="854.0" prefHeight="480.0" prefWidth="854.0" VBox.vgrow="ALWAYS">
+      <children>
+         <ImageView fx:id="playerView" fitHeight="480.0" fitWidth="854.0" pickOnBounds="true">
+            <StackPane.margin>
+               <Insets />
+            </StackPane.margin>
+            <viewport>
+               <Rectangle2D />
+            </viewport>
+         </ImageView>
+      </children>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+   </StackPane>
+   <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: #111318;">
+      <ImageView fx:id="buttonImage" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/pause_40dp_FILL1_wght0_GRAD0_opsz40.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="durLabel" alignment="CENTER" text="00:00" textFill="#e2e2e9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Region HBox.hgrow="ALWAYS" />
+      <Label fx:id="nameLabel" alignment="CENTER_RIGHT" text="Currently Playing:" textFill="#e2e2e9">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/movie_24dp_FILL0_wght400_GRAD0_opsz24.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <HBox.margin>
+            <Insets right="10.0" />
+         </HBox.margin>
+      </Label>
+      <ImageView fx:id="infoView" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/info_24dp_FILL1_wght400_GRAD0_opsz24.png" />
+         </image>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </ImageView>
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </VBox.margin>
+   </HBox>
+</VBox>
