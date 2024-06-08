@@ -60,11 +60,11 @@ Ruleset for protocol selection (if user did not select a protocol):
 |-----------|----|----|----|----|-----|
 |Protocol|TCP|UDP|UDP|RTP/UDP|RTP/UDP|
 
-Ruleset for Speed Test:
+Ruleset for video availability:
 
 |Resolutions|240p|360p|480p|720p|1080p|
 |-----------|----|----|----|----|-----|
-|User bit rate|>400Kbps|>750Kbps|>1000Kbps|>2500Kbps|>4500Kbps|
+|User speed test|>400Kbps|>750Kbps|>1000Kbps|>2500Kbps|>4500Kbps|
 
 
 ### Usage
