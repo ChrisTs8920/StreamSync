@@ -64,7 +64,7 @@ Ruleset for Speed Test:
 
 |Resolutions|240p|360p|480p|720p|1080p|
 |-----------|----|----|----|----|-----|
-|User bit rate|400Kbps|750Kbps|1000Kbps|2500Kbps|4500Kbps|
+|User bit rate|>400Kbps|>750Kbps|>1000Kbps|>2500Kbps|>4500Kbps|
 
 
 ### Usage
