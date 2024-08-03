@@ -4,7 +4,7 @@
 
 A Video streaming server - client application made with Java, JavaFX and FFmpeg.
 
-*This project was made during my Multimedia class.*
+>*This project was made during my Multimedia course in University.*
 
 ### Server
 
@@ -29,7 +29,7 @@ Consists of 4 menus:
 - **Client:** Contains information about the current connected client.
 - **About:** A simple menu that contains information about the application.
 
-*The user can select any of these menus at anytime.*
+>*The user can select any of these menus at anytime.*
 
 Available console commands:
 
@@ -42,7 +42,7 @@ Available console commands:
 - **help:** Displays a help message about all available commands and their descriptions.
 - **exit:** Exits the Server application.
 
-**Note:** The server does not generate a higher resolution than the one given.
+>The server does not generate a higher resolution than the one given.
 
 ### Client details
 
